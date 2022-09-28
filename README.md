@@ -1,18 +1,18 @@
 Pi chart
-<img src="1.png" />
+<img src="1.PNG" />
 Line chart
-<img src="2.png" />
+<img src="2.PNG" />
 Drill down bar chart
-<img src="3.png" />
+<img src="3.PNG" />
 react drag and drop
-<img src="4.png" />
+<img src="4.PNG" />
 Heatmap
-<img src="5.png" />
+<img src="5.PNG" />
 
-<img src="6.png" />
+<img src="6.PNG" />
 Wordcloud
-<img src="7.png" />
-<img src="8.png" />
+<img src="7.PNG" />
+<img src="8.PNG" />
 
 # Getting Started with Create React App
 
