@@ -1,0 +1,274 @@
+/* map css */
+
+/* popup styles */
+
+.ol-popup {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  bottom: 12px;
+  left: -50px;
+  min-width: 200px;
+}
+
+.ol-popup-closer {
+  text-decoration: none;
+  position: absolute;
+  top: 2px;
+  right: 8px;
+}
+ .ol-popup-closer:after {
+  content: "✖";
+} 
+
+.map-container {
+  
+  height:400px;
+ 
+} 
+
+
+div>.ol-viewport:nth-child(2){
+  display:none;
+}
+
+
+
+
+/* dragndrop css */
+
+
+
+
+.activeMember{
+  background-color:   #F5F3F2;
+}
+.inactiveMember{
+  background-color: #E5E2E0;
+}
+
+.heading{
+  color:#E3BA22;
+}
+.details{
+  color:#E3BA22;
+  font-weight:bold;
+}
+.members{
+  color: #E6842A;
+  font-weight:bold;
+}
+
+
+
+
+
+
+/* dragndrop css */
+/* country population css */
+ .ui-row-ltr> td {
+  white-space: normal !important; 
+  word-wrap: break-word;  
+}
+
+
+.ui-jqgrid-view >  .ui-jqgrid-caption {
+  height: 40px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #E6842A !important;
+  padding: 0;
+  font-size: 15px;
+text-align: center;
+}
+
+.ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-hdiv {
+  background-color: #F6B656;
+}
+.ui-jqdialog-titlebar{background-color: #F6B656 !important;}
+#pager1 {
+  background-color: #F6B656;
+}
+
+.sid{
+  text-align: center; 
+border: 2px solid green;
+padding:5px; margin-right: 25%;
+
+margin-left:25%;
+overflow: auto;
+
+}
+
+
+@media(max-width:576px){
+  .sid{
+      text-align: center; 
+  border: 2px solid green;
+  min-height: 240px;padding:5px; margin-right: 25px;margin-left: 25px;
+  }
+  
+  
+}
+
+/* country population css */
+
+
+
+a:hover, a:active {
+  color: #E3BA22;
+}
+.body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+  padding:2em;
+ 
+}
+
+.flex-container > div {
+  padding:25px;
+  margin:10px;
+}
+
+div .svg1{
+  padding:2em;
+   overflow:auto;
+   
+  background-color:  #EFECEA; 
+}
+
+ svg{
+
+  background: #EFECEA;
+
+overflow:hidden;
+display:block;
+
+width:100%;
+
+} 
+
+ 
+
+.tick text{
+  font-size: small;
+}
+
+
+.markTitle{
+  font-weight: bold;
+}
+.tooltip-bar_area__text{
+  font-weight: bold;
+}
+.tooltip-bar_pop__text{
+  font-weight: bold;
+}
+.tooltip-line_area__text{
+  font-weight: bold;
+}
+.tooltip-line_pop__text{
+  font-weight: bold;
+}
+
+.tooltip-pie_area__text{
+  font-weight: bold;
+}
+.tooltip-pie_pop__text{
+  font-weight: bold;
+}
+
+.axis-label{
+  font-size: medium;
+  font-weight: bold;
+}
+.legend-text{
+  font-size: medium;
+  font-weight: bold;
+}
+
+.tick-label{
+  font-size: medium;
+  font-weight: bold;
+
+}
+
+
+@media(max-width:576px){
+  .tick text{
+    font-size:xx-small;
+    
+  }
+  .axis-label{
+    font-size: small;
+  }
+  div .svg1{
+    padding:0.5em;}
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.active{
+  text-decoration: none;
+  padding: 1em;
+ /* text-align: center;*/
+  color: #E6842A;
+  display: inline-block;
+}
+.inactive{
+  text-decoration: none;
+  padding: 1em;
+
+  /*text-align: center;
+  */
+
+  color:#B396AD;
+
+  display: inline-block;
+}
+.navbar-nav{
+  padding: 1.5em;
+}
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #2b2eff;
+    color: #2b2eff;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #2b2eff;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #2b2eff;
+  }
+  
+  .paginationDisabled a {
+    color: grey;
+    background-color: grey;
+  }
