@@ -1,3 +1,19 @@
+Pi chart
+<img src="1.png" />
+Line chart
+<img src="2.png" />
+Drill down bar chart
+<img src="3.png" />
+react drag and drop
+<img src="4.png" />
+Heatmap
+<img src="5.png" />
+
+<img src="6.png" />
+Wordcloud
+<img src="7.png" />
+<img src="8.png" />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
