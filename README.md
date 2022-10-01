@@ -1,5 +1,65 @@
 DUE TO NDA I CANNOT SHARE MUCH OF MY WORK.. THESE ARE FEW PIECES OF MY FRONTEND WORK..(BUT THERE'S MORE THAN THESE)
 
+a sample of the request-response
+
+   try{
+const res=await register(user,password);
+
+
+var tempUserObj=res.data.user[0];
+
+console.log(tempUserObj);
+
+var routeLink;
+console.log(tempUserObj?.role?.find(role=>rolesArr?.includes(role)));
+          if(tempUserObj?.role?.find(role=>rolesArr?.includes(role))===1){
+            routeLink='/AdminPage';
+          }
+          else{
+            routeLink='/UserPage';
+
+
+
+
+                authenticate(res,()=>{
+                        
+                     
+ 
+     navigate(routeLink,{replace:true});
+    
+        })}
+    }
+        catch(err){
+            console.log(err.message);
+            if(!err?.response){
+                toast.error('No server Response');
+            }
+            else if(err.response?.status===400){
+                
+                toast.error(err.response.data.error);
+            }
+            else if(err.response?.status===401){
+                toast.error('Unauthorized');
+            }
+            else{
+                toast.error('Login Failed');
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Pi chart
 <img src="1.PNG" />
 Line chart
